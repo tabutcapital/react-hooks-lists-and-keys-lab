@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 function ProjectItem({ name, about, technologies }) {
   return (
     <div className="project-item">

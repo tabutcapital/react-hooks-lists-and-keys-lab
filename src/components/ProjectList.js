@@ -9,7 +9,7 @@ function ProjectList({ projects }) {
       <div id="project-list">{/* render ProjectItem components here */
          projects.map((project) => (
           <ProjectItem
-            key={project.id} // Use the project's id as the unique key
+            key={project.id} 
             name={project.name}
             about={project.about}
             technologies={project.technologies}
